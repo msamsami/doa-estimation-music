@@ -113,11 +113,10 @@ for i = 1:size(noiseV, 2)
     title ('Estimation of DOAs over the different noise variances')
     grid;
     
-    % Reffering to the results, we can that there is a negative correlation
-    % between the noise variance and the accuracy of estimation, i.e., the
-    % latter decreases as we increase the former. This is because the peaks
-    % are became less sharp and some fake peaks are generated in some
-    % cases.
+    % Reffering to the results, we can infer that there is a negative correlation
+    % between the noise variance and the accuracy of estimation, i.e., the latter
+    % decreases as we increase the former. This is because the peaks are became
+    % less sharp and some fake peaks are generated in some cases.
     
     % If we start from the largest eigen value to the smallest one in the 
     % corresponding diagonal matrix and calculate the difference between

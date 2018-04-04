@@ -2,7 +2,7 @@
 
 % MUSIC: Multiple Signal Classification
 clc;
-%clear;
+clear;
 delete(findall(0, 'Type', 'figure'));
 
 % STEP a: Simulating the Narrowband Sources %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -113,7 +113,7 @@ for i = 1:size(noiseV, 2)
     title ('Estimation of DOAs over the different noise variances')
     grid;
     
-    % Reffering to the results, we can infer that there is a negative correlation
+    % According to the results, we can infer that there is a negative correlation
     % between the noise variance and the accuracy of estimation, i.e., the latter
     % decreases as we increase the former. This is because the peaks are became
     % less sharp and some fake peaks are generated in some cases.
@@ -170,7 +170,7 @@ for i = 1:size(distV, 2)
     title ('Estimation of DOAs over the different inter-spacing between antennas')
     grid; 
 
-    % Reffering to the results, we can observe that (very) large or (very)
+    % According to the results, we can observe that (very) large or (very)
     % small spacing between antennas can result in low accuracy of
     % estimation due to the generation of small and/or fake peaks. Thus,
     % there is an optimum value for inter-spacing between antennas and can
@@ -214,7 +214,7 @@ for i = 1:size(sVarV, 2)
     title ('Estimation of DOAs over the differenet sources amplitude variances')
     grid;
     
-    % Reffering to the results, we can infer that there is a positive
+    % According to the results, we can infer that there is a positive
     % correlation between the the variance of the amplitude of the sources 
     % and the accuracy of estimation, i.e., the latter increases as we
     % increase the former. This is because the peaks are became sharper and 

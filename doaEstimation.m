@@ -8,7 +8,7 @@ delete(findall(0, 'Type', 'figure'));
 % STEP a: Simulating the Narrowband Sources %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 p = 100; % Number of time snapshots
 fs = 10^7; % Sampling frequency
-fc = 10^6 ; % Center frequency of narrowband sources
+fc = 10^6; % Center frequency of narrowband sources
 M = 10; % Number of array elements, i.e., sensors or antennas
 N = 5; % Number of sources
 sVar = 1; % Variance of the amplitude of the sources
@@ -55,8 +55,6 @@ end
 [resSorted, orgInd] = sort(res, 'descend');
 DOAs = orgInd(1:N, 1);
 % STEP d: Finding the noise subspace and estimating the DOAs %%%%%%%%%%%%%
-
-
 
 %%
 clc;
